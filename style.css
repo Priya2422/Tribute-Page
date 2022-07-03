@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   height: 100%;
+   background-color: #426ec0;
+   background-image: linear-gradient(225deg, #426ec0 0%, #8495b6 50%, #163244 100%);
+    
+   color: aliceblue;
+}
+.mane{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+}
+.upperQuote{
+    font-size: 1.1rem;
+}
+section{
+    padding: 0 2rem;
+    margin-top: 5rem;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid aliceblue;
+    background-color: #fff;
+    color:  rgb(17, 23, 30);
+   
+}
+.about{
+    font-size: 2rem;
+}
+h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+}
+.img{
+    height: 50%;
+}
+q{
+    font-style: italic;
+}
+main{
+    width: 70%;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+margin-top: 3rem;
+padding: 0 2rem;
+
+}
+.mainAbout{
+    margin-top: 1rem;
+    
+}
+footer{
+    width: 75%;
+    border-top: 1px solid aliceblue;
+    margin-top: 3rem;
+    padding: 2rem 2rem 1.5rem 2rem;  
+    text-align: center;
+}
+a{
+    color: rgb(167, 194, 223);
+}
+span{
+    color: black;
+    margin-right: 1rem;
+}
+p{
+    font-size: 1.1rem;
+}
