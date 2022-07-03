@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 body{
+  
    height: 100%;
    background-color: #426ec0;
    background-image: linear-gradient(225deg, #426ec0 0%, #8495b6 50%, #163244 100%);
@@ -45,8 +46,10 @@ h2{
     text-transform: uppercase;
     font-family: 'Dosis', sans-serif;
 }
-.img{
-    height: 50%;
+
+.img img{
+    height: 20rem;
+object-fit: cover;
 }
 q{
     font-style: italic;
@@ -81,3 +84,12 @@ span{
 p{
     font-size: 1.1rem;
 }
+ @media only screen and (max-device-width: 440px) {
+    h1{
+        font-size: 2rem;
+    }
+    section{
+        flex-direction: column;
+        text-align: center;
+    }
+ }
